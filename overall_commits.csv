@@ -1,0 +1,2936 @@
+CommitHash,ProjectName,OrgName,Date,CommitMessage,CommitMessageSize,CommitLines,IsMergeRequest,NumberFilesChanged
+43414048497147ac28e55686c056e92db24306f4,libgrape-lite,alibaba,2023-04-01 05:26:00,Add pagerank_push,17,507,No,6
+0d804bbadda5aa15506ad059d5bf9bc9dda3c671,sentinel-golang,alibaba,2022-10-11 11:22:04,Add adapter for gofiber/fiber (#486),36,336,No,7
+3cb9bdb9d269904e1b3f7ce2954bc436511a5786,innodb-java-reader,alibaba,2020-12-19 17:22:22,"Merge pull request #16 from chrnndz3/fixFlakyTestsPart2
+
+Fix Nondeterministic Ordering in Tests Part 2",102,14,Yes,1
+157df769d5719053f25a288ff57af55f99d617e1,fish-redux,alibaba,2021-03-09 02:49:53,V0.3.7,6,6,No,2
+c7505539a12737dbbedf2c9b30eeca430c408b2b,metrics,alibaba,2021-03-03 06:33:58,"指标初始化时收集设置为0,确保首次获取指标的正确性 (#70)",31,2,No,1
+e79603442d40120259621af7124addaf92d7a9af,arthas,alibaba,2019-04-19 10:43:31,travis ci support different jdk versions,40,5,No,1
+8bce35f8b41ea1a6d489f949c74b7ee237ea23e7,derrick,alibaba,2020-02-25 06:41:25,Update README.md,16,4,No,1
+2271cf3d6fe9ffdbb361a2f599b19d882cb671ff,minikube,kubernetes,2020-11-10 18:25:18,"Merge pull request #9551 from yehiyam/imageRepository
+
+add ImageRepository to addons templates",94,89,Yes,21
+215d1b3ebdaaf079dae7913a0bbb0a7a33d15212,dashboard,kubernetes,2023-04-17 15:12:46,"Bump k8s modules to 0.27.1 (#7715)
+
+* Bump k8s modules to 0.27.1
+
+Also, bump cosmtrek/air to 1.43.0.
+kindest/node v1.27.1 is not released for now.
+
+* Bump golang from 1.19 to 1.20
+
+* Fix yaml for actions/setup-go
+
+* Bump golangci-lint to 1.52.2 for ci.
+
+golanci-lint supports golang 1.20 from v1.51.0.
+
+* Bump golangci-lint to 1.52.2 for development container.",360,112,No,15
+cc5a7e727d42b5139fc8f5c3bea9ce55a05c9263,incubator-hugegraph-computer,apache,2023-03-02 02:29:18,chore: fix empty license file (#233),36,1279,No,5
+6aa01af49e85eb99e6f6fa2b6c2c98a736b56b67,incubator-hugegraph-commons,apache,2023-02-09 10:07:21,Update NOTICE,13,8,No,1
+cf1312e9be69756a083ef25301fece41396701bb,incubator-hugegraph-toolchain,apache,2023-04-07 01:49:48,chore: improve spark parallel (#450),36,69,No,1
+86bdb0636494bc23751f5df90fdb56a87b928ca7,rocketmq-dashboard,apache,2022-11-28 08:37:02,"[ISSUE #123]Optimize groupList.query (#124)
+
+Co-authored-by: zhangjidi <zhangjidi@cmss.chinamobile.com>",103,62,No,2
+2afd79f14c696212b7b733f3b6cf5800c55642b3,ws-neethi,apache,2021-12-19 12:28:20,Update actions/setup-java to v2,31,3,No,1
+b3177f3209a4a91797b3627d82f03da9666215de,axis-axis2-java-core,apache,2023-04-14 13:58:04,"Bump jetty.version from 10.0.14 to 10.0.15
+
+Bumps `jetty.version` from 10.0.14 to 10.0.15.
+
+Updates `jetty-server` from 10.0.14 to 10.0.15
+- [Release notes](https://github.com/eclipse/jetty.project/releases)
+- [Commits](https://github.com/eclipse/jetty.project/compare/jetty-10.0.14...jetty-10.0.15)
+
+Updates `jetty-webapp` from 10.0.14 to 10.0.15
+- [Release notes](https://github.com/eclipse/jetty.project/releases)
+- [Commits](https://github.com/eclipse/jetty.project/compare/jetty-10.0.14...jetty-10.0.15)
+
+Updates `jetty-maven-plugin` from 10.0.14 to 10.0.15
+- [Release notes](https://github.com/eclipse/jetty.project/releases)
+- [Commits](https://github.com/eclipse/jetty.project/compare/jetty-10.0.14...jetty-10.0.15)
+
+Updates `jetty-jspc-maven-plugin` from 10.0.14 to 10.0.15
+- [Release notes](https://github.com/eclipse/jetty.project/releases)
+- [Commits](https://github.com/eclipse/jetty.project/compare/jetty-10.0.14...jetty-10.0.15)
+
+---
+updated-dependencies:
+- dependency-name: org.eclipse.jetty:jetty-server
+  dependency-type: direct:development
+  update-type: version-update:semver-patch
+- dependency-name: org.eclipse.jetty:jetty-webapp
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+- dependency-name: org.eclipse.jetty:jetty-maven-plugin
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+- dependency-name: org.eclipse.jetty:jetty-jspc-maven-plugin
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>",1565,2,No,1
+30c8d8c10c3ab684e37a1339e7ba2c054f370e1f,skywalking-rust,apache,2023-03-06 11:15:07,Bump to 0.6.0. (#56),20,4,No,2
+18629597207cb2067dd6d0c35a5bb0b46c1bdc6f,ws-axiom,apache,2023-04-14 04:04:07,"Bump jetty.version from 10.0.14 to 10.0.15
+
+Bumps `jetty.version` from 10.0.14 to 10.0.15.
+
+Updates `jetty-server` from 10.0.14 to 10.0.15
+- [Release notes](https://github.com/eclipse/jetty.project/releases)
+- [Commits](https://github.com/eclipse/jetty.project/compare/jetty-10.0.14...jetty-10.0.15)
+
+Updates `jetty-webapp` from 10.0.14 to 10.0.15
+- [Release notes](https://github.com/eclipse/jetty.project/releases)
+- [Commits](https://github.com/eclipse/jetty.project/compare/jetty-10.0.14...jetty-10.0.15)
+
+---
+updated-dependencies:
+- dependency-name: org.eclipse.jetty:jetty-server
+  dependency-type: direct:development
+  update-type: version-update:semver-patch
+- dependency-name: org.eclipse.jetty:jetty-webapp
+  dependency-type: direct:development
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>",854,2,No,1
+5fb1de22cd12555164103771aa42d93d00768ba5,rocketmq-exporter,apache,2022-11-09 02:04:31,"[ISSUE #99] ignored rocketmq_group_get_latency_by_storetime for boardcast consumer
+
+[ISSUE #100] ignored rocketmq_group_get_latency_by_storetime for boardcast consumer",167,54,Yes,1
+17830975a87fbae61f9631a965ef274040f9c8d9,submarine,apache,2023-04-01 04:45:08,"SUBMARINE-1375. Fix custom resource definition requiring database secret
+
+### What is this PR for?
+The operator-v3 based custom resource already supports automatic secret generation without the database password, so we don't need this config to be required.
+
+### What type of PR is it?
+Bug Fix
+
+### Todos
+* [x] - Remove mysqlRootPasswordSecret required
+
+### What is the Jira issue?
+https://issues.apache.org/jira/browse/SUBMARINE-1375
+
+### How should this be tested?
+NA
+
+### Screenshots (if appropriate)
+NA
+
+### Questions:
+* Do the license files need updating? No
+* Are there breaking changes for older versions? No
+* Does this need new documentation? No
+
+Author: cdmikechen <cdmikechen@apache.org>
+
+Signed-off-by: cdmikechen <cdmikechen@apache.org>
+
+Closes #1059 from cdmikechen/SUBMARINE-1375 and squashes the following commits:
+
+25d5da93 [cdmikechen] Replace submarine-operator-v2 to v3
+92af52b2 [cdmikechen] Remove mysqlRootPasswordSecret in database required",963,7,No,4
+5c8c499fc96633668599da474453fbc55bc143ee,incubator-tuweni,apache,2021-04-28 03:50:56,"Add dist build folder to the mounted folders when running build.sh, so folks can get the distributions by following the build.sh script",135,2,No,1
+70828f74456baeb59fdfa9f6d8183c97ecbdec55,dubbo-erlang,apache,2022-08-14 16:29:15,"Merge pull request #12 from apache/dependabot/maven/samples/dubbo-sample-service/org.apache.dubbo-dubbo-2.7.15
+
+build(deps): bump dubbo from 2.7.2 to 2.7.15 in /samples/dubbo-sample-service",189,2,Yes,1
+0347569a78cd029e45a78eafc27693a0a7a5287f,rocketmq-client-cpp,apache,2021-09-27 07:34:57,Update .travis.yml,18,4,No,1
+267ff6d3a8d5791d9481643697c757bc0cc6cf8f,incubator-hugegraph,apache,2023-04-19 13:19:01,chore: async remove left index shouldn't effect query (#2199),61,37,No,3
+2b1814ed07b7562915b91d10711b9cd93d18f79a,dubbo-js,apache,2021-06-17 02:06:30,"Merge pull request #233 from lmikoto/master
+
+fix: read me import",64,4,Yes,1
+ca3cdebb7be87d53416c36806b2255c9fa95ff70,dubbo-samples,apache,2020-07-02 08:10:29,update dubbo version to 2.7.7,29,160,No,80
+4d3eabfe90dddbbffda062a22a2eb524340fe87c,dubbo-spring-boot-project,apache,2021-03-20 06:11:12,"Merge 2.7.x branch to master (#784)
+
+* 2.7.x (#475)
+
+* Fix apache/incubator-dubbo-spring-boot-project#169
+
+* 0.2.1 (#345)
+
+* Fix apache/incubator-dubbo-spring-boot-project#169
+
+* Polish : apache/incubator-dubbo-spring-boot-project#324 & apache/incubator-dubbo-spring-boot-project#325
+
+* Polish : apache/incubator-dubbo-spring-boot-project#315
+
+* Polish : apache/incubator-dubbo-spring-boot-project#321
+
+* Polish : apache/incubator-dubbo-spring-boot-project#321
+
+* Polish : apache/incubator-dubbo-spring-boot-project#321 for test case
+
+* Polish : Update Demos
+
+* Polish : Update version to be 0.2.1
+
+* Polish : apache/incubator-dubbo-spring-boot-project#319
+
+* Polish : apache/incubator-dubbo-spring-boot-project#226
+
+* Polish : apache/incubator-dubbo-spring-boot-project#309
+
+* Fix the test case's bugs
+
+* Fix the test case's bugs
+
+* Fix a JavaDoc issue
+
+* Update SNAPSHOT and add exclude list
+
+* Update SNAPSHOT to be 0.2.1-SNAPSHOT
+
+* Update JDK versions
+
+* Update JDK versions
+
+* Reactor & remove author info
+
+* Refactor : to save a shutdown hook thread
+
+* 0.2.1 (#346)
+
+* Fix apache/incubator-dubbo-spring-boot-project#169
+
+* Polish : apache/incubator-dubbo-spring-boot-project#324 & apache/incubator-dubbo-spring-boot-project#325
+
+* Polish : apache/incubator-dubbo-spring-boot-project#315
+
+* Polish : apache/incubator-dubbo-spring-boot-project#321
+
+* Polish : apache/incubator-dubbo-spring-boot-project#321
+
+* Polish : apache/incubator-dubbo-spring-boot-project#321 for test case
+
+* Polish : Update Demos
+
+* Polish : Update version to be 0.2.1
+
+* Polish : apache/incubator-dubbo-spring-boot-project#319
+
+* Polish : apache/incubator-dubbo-spring-boot-project#226
+
+* Polish : apache/incubator-dubbo-spring-boot-project#309
+
+* Fix the test case's bugs
+
+* Fix the test case's bugs
+
+* Fix a JavaDoc issue
+
+* Update SNAPSHOT and add exclude list
+
+* Update SNAPSHOT to be 0.2.1-SNAPSHOT
+
+* Update JDK versions
+
+* Update JDK versions
+
+* Reactor & remove author info
+
+* Refactor : to save a shutdown hook thread
+
+* Remove javax.servlet:javax.servlet-api:3.1.0 that may cause class conflict, and use indirectly dependencies from spring-boot-starter-*
+
+* Polish apache/incubator-dubbo-spring-boot-project#341
+
+* 0.2.1 (#357)
+
+* Fix apache/incubator-dubbo-spring-boot-project#169
+
+* Polish : apache/incubator-dubbo-spring-boot-project#324 & apache/incubator-dubbo-spring-boot-project#325
+
+* Polish : apache/incubator-dubbo-spring-boot-project#315
+
+* Polish : apache/incubator-dubbo-spring-boot-project#321
+
+* Polish : apache/incubator-dubbo-spring-boot-project#321
+
+* Polish : apache/incubator-dubbo-spring-boot-project#321 for test case
+
+* Polish : Update Demos
+
+* Polish : Update version to be 0.2.1
+
+* Polish : apache/incubator-dubbo-spring-boot-project#319
+
+* Polish : apache/incubator-dubbo-spring-boot-project#226
+
+* Polish : apache/incubator-dubbo-spring-boot-project#309
+
+* Fix the test case's bugs
+
+* Fix the test case's bugs
+
+* Fix a JavaDoc issue
+
+* Update SNAPSHOT and add exclude list
+
+* Update SNAPSHOT to be 0.2.1-SNAPSHOT
+
+* Update JDK versions
+
+* Update JDK versions
+
+* Reactor & remove author info
+
+* Refactor : to save a shutdown hook thread
+
+* Remove javax.servlet:javax.servlet-api:3.1.0 that may cause class conflict, and use indirectly dependencies from spring-boot-starter-*
+
+* Polish apache/incubator-dubbo-spring-boot-project#341
+
+* Add the samples
+
+* Add a license
+
+* 0.2.1 (#360)
+
+* Fix apache/incubator-dubbo-spring-boot-project#169
+
+* Polish : apache/incubator-dubbo-spring-boot-project#324 & apache/incubator-dubbo-spring-boot-project#325
+
+* Polish : apache/incubator-dubbo-spring-boot-project#315
+
+* Polish : apache/incubator-dubbo-spring-boot-project#321
+
+* Polish : apache/incubator-dubbo-spring-boot-project#321
+
+* Polish : apache/incubator-dubbo-spring-boot-project#321 for test case
+
+* Polish : Update Demos
+
+* Polish : Update version to be 0.2.1
+
+* Polish : apache/incubator-dubbo-spring-boot-project#319
+
+* Polish : apache/incubator-dubbo-spring-boot-project#226
+
+* Polish : apache/incubator-dubbo-spring-boot-project#309
+
+* Fix the test case's bugs
+
+* Fix the test case's bugs
+
+* Fix a JavaDoc issue
+
+* Update SNAPSHOT and add exclude list
+
+* Update SNAPSHOT to be 0.2.1-SNAPSHOT
+
+* Update JDK versions
+
+* Update JDK versions
+
+* Reactor & remove author info
+
+* Refactor : to save a shutdown hook thread
+
+* Remove javax.servlet:javax.servlet-api:3.1.0 that may cause class conflict, and use indirectly dependencies from spring-boot-starter-*
+
+* Polish apache/incubator-dubbo-spring-boot-project#341
+
+* Add the samples
+
+* Add a license
+
+* Add the samples of Zookeeper and Nacos
+
+* Update README.md
+
+* Fix the test cases
+
+* 0.2.1 (#367)
+
+* Fix apache/incubator-dubbo-spring-boot-project#169
+
+* Polish : apache/incubator-dubbo-spring-boot-project#324 & apache/incubator-dubbo-spring-boot-project#325
+
+* Polish : apache/incubator-dubbo-spring-boot-project#315
+
+* Polish : apache/incubator-dubbo-spring-boot-project#321
+
+* Polish : apache/incubator-dubbo-spring-boot-project#321
+
+* Polish : apache/incubator-dubbo-spring-boot-project#321 for test case
+
+* Polish : Update Demos
+
+* Polish : Update version to be 0.2.1
+
+* Polish : apache/incubator-dubbo-spring-boot-project#319
+
+* Polish : apache/incubator-dubbo-spring-boot-project#226
+
+* Polish : apache/incubator-dubbo-spring-boot-project#309
+
+* Fix the test case's bugs
+
+* Fix the test case's bugs
+
+* Fix a JavaDoc issue
+
+* Update SNAPSHOT and add exclude list
+
+* Update SNAPSHOT to be 0.2.1-SNAPSHOT
+
+* Update JDK versions
+
+* Update JDK versions
+
+* Reactor & remove author info
+
+* Refactor : to save a shutdown hook thread
+
+* Remove javax.servlet:javax.servlet-api:3.1.0 that may cause class conflict, and use indirectly dependencies from spring-boot-starter-*
+
+* Polish apache/incubator-dubbo-spring-boot-project#341
+
+* Add the samples
+
+* Add a license
+
+* Add the samples of Zookeeper and Nacos
+
+* Update README.md
+
+* Fix the test cases
+
+* Polish apache/incubator-dubbo-spring-boot-project#366
+
+* 0.2.1 (#372) (#374)
+
+* Fix apache/incubator-dubbo-spring-boot-project#169
+
+* Polish : apache/incubator-dubbo-spring-boot-project#324 & apache/incubator-dubbo-spring-boot-project#325
+
+* Polish : apache/incubator-dubbo-spring-boot-project#315
+
+* Polish : apache/incubator-dubbo-spring-boot-project#321
+
+* Polish : apache/incubator-dubbo-spring-boot-project#321
+
+* Polish : apache/incubator-dubbo-spring-boot-project#321 for test case
+
+* Polish : Update Demos
+
+* Polish : Update version to be 0.2.1
+
+* Polish : apache/incubator-dubbo-spring-boot-project#319
+
+* Polish : apache/incubator-dubbo-spring-boot-project#226
+
+* Polish : apache/incubator-dubbo-spring-boot-project#309
+
+* Fix the test case's bugs
+
+* Fix the test case's bugs
+
+* Fix a JavaDoc issue
+
+* Update SNAPSHOT and add exclude list
+
+* Update SNAPSHOT to be 0.2.1-SNAPSHOT
+
+* Update JDK versions
+
+* Update JDK versions
+
+* Reactor & remove author info
+
+* Refactor : to save a shutdown hook thread
+
+* Remove javax.servlet:javax.servlet-api:3.1.0 that may cause class conflict, and use indirectly dependencies from spring-boot-starter-*
+
+* Polish apache/incubator-dubbo-spring-boot-project#341
+
+* Add the samples
+
+* Add a license
+
+* Add the samples of Zookeeper and Nacos
+
+* Update README.md
+
+* Fix the test cases
+
+* Polish apache/incubator-dubbo-spring-boot-project#366
+
+* Polish apache/incubator-dubbo-spring-boot-project#370
+
+* 0.2.1 (#378)
+
+* 0.2.1 (#372)
+
+* Fix apache/incubator-dubbo-spring-boot-project#169
+
+* Polish : apache/incubator-dubbo-spring-boot-project#324 & apache/incubator-dubbo-spring-boot-project#325
+
+* Polish : apache/incubator-dubbo-spring-boot-project#315
+
+* Polish : apache/incubator-dubbo-spring-boot-project#321
+
+* Polish : apache/incubator-dubbo-spring-boot-project#321
+
+* Polish : apache/incubator-dubbo-spring-boot-project#321 for test case
+
+* Polish : Update Demos
+
+* Polish : Update version to be 0.2.1
+
+* Polish : apache/incubator-dubbo-spring-boot-project#319
+
+* Polish : apache/incubator-dubbo-spring-boot-project#226
+
+* Polish : apache/incubator-dubbo-spring-boot-project#309
+
+* Fix the test case's bugs
+
+* Fix the test case's bugs
+
+* Fix a JavaDoc issue
+
+* Update SNAPSHOT and add exclude list
+
+* Update SNAPSHOT to be 0.2.1-SNAPSHOT
+
+* Update JDK versions
+
+* Update JDK versions
+
+* Reactor & remove author info
+
+* Refactor : to save a shutdown hook thread
+
+* Remove javax.servlet:javax.servlet-api:3.1.0 that may cause class conflict, and use indirectly dependencies from spring-boot-starter-*
+
+* Polish apache/incubator-dubbo-spring-boot-project#341
+
+* Add the samples
+
+* Add a license
+
+* Add the samples of Zookeeper and Nacos
+
+* Update README.md
+
+* Fix the test cases
+
+* Polish apache/incubator-dubbo-spring-boot-project#366
+
+* Polish apache/incubator-dubbo-spring-boot-project#370
+
+* 0.2.1 (#376)
+
+* Fix apache/incubator-dubbo-spring-boot-project#169
+
+* Polish : apache/incubator-dubbo-spring-boot-project#324 & apache/incubator-dubbo-spring-boot-project#325
+
+* Polish : apache/incubator-dubbo-spring-boot-project#315
+
+* Polish : apache/incubator-dubbo-spring-boot-project#321
+
+* Polish : apache/incubator-dubbo-spring-boot-project#321
+
+* Polish : apache/incubator-dubbo-spring-boot-project#321 for test case
+
+* Polish : Update Demos
+
+* Polish : Update version to be 0.2.1
+
+* Polish : apache/incubator-dubbo-spring-boot-project#319
+
+* Polish : apache/incubator-dubbo-spring-boot-project#226
+
+* Polish : apache/incubator-dubbo-spring-boot-project#309
+
+* Fix the test case's bugs
+
+* Fix the test case's bugs
+
+* Fix a JavaDoc issue
+
+* Update SNAPSHOT and add exclude list
+
+* Update SNAPSHOT to be 0.2.1-SNAPSHOT
+
+* Update JDK versions
+
+* Update JDK versions
+
+* Reactor & remove author info
+
+* Refactor : to save a shutdown hook thread
+
+* Remove javax.servlet:javax.servlet-api:3.1.0 that may cause class conflict, and use indirectly dependencies from spring-boot-starter-*
+
+* Polish apache/incubator-dubbo-spring-boot-project#341
+
+* Add the samples
+
+* Add a license
+
+* Add the samples of Zookeeper and Nacos
+
+* Update README.md
+
+* Fix the test cases
+
+* Polish apache/incubator-dubbo-spring-boot-project#366
+
+* Polish apache/incubator-dubbo-spring-boot-project#370
+
+* Polish apache/incubator-dubbo-spring-boot-project#370
+
+* 0.2.1 (#389)
+
+* 0.2.1 (#372)
+
+* Fix apache/incubator-dubbo-spring-boot-project#169
+
+* Polish : apache/incubator-dubbo-spring-boot-project#324 & apache/incubator-dubbo-spring-boot-project#325
+
+* Polish : apache/incubator-dubbo-spring-boot-project#315
+
+* Polish : apache/incubator-dubbo-spring-boot-project#321
+
+* Polish : apache/incubator-dubbo-spring-boot-project#321
+
+* Polish : apache/incubator-dubbo-spring-boot-project#321 for test case
+
+* Polish : Update Demos
+
+* Polish : Update version to be 0.2.1
+
+* Polish : apache/incubator-dubbo-spring-boot-project#319
+
+* Polish : apache/incubator-dubbo-spring-boot-project#226
+
+* Polish : apache/incubator-dubbo-spring-boot-project#309
+
+* Fix the test case's bugs
+
+* Fix the test case's bugs
+
+* Fix a JavaDoc issue
+
+* Update SNAPSHOT and add exclude list
+
+* Update SNAPSHOT to be 0.2.1-SNAPSHOT
+
+* Update JDK versions
+
+* Update JDK versions
+
+* Reactor & remove author info
+
+* Refactor : to save a shutdown hook thread
+
+* Remove javax.servlet:javax.servlet-api:3.1.0 that may cause class conflict, and use indirectly dependencies from spring-boot-starter-*
+
+* Polish apache/incubator-dubbo-spring-boot-project#341
+
+* Add the samples
+
+* Add a license
+
+* Add the samples of Zookeeper and Nacos
+
+* Update README.md
+
+* Fix the test cases
+
+* Polish apache/incubator-dubbo-spring-boot-project#366
+
+* Polish apache/incubator-dubbo-spring-boot-project#370
+
+* 0.2.1 (#376)
+
+* Fix apache/incubator-dubbo-spring-boot-project#169
+
+* Polish : apache/incubator-dubbo-spring-boot-project#324 & apache/incubator-dubbo-spring-boot-project#325
+
+* Polish : apache/incubator-dubbo-spring-boot-project#315
+
+* Polish : apache/incubator-dubbo-spring-boot-project#321
+
+* Polish : apache/incubator-dubbo-spring-boot-project#321
+
+* Polish : apache/incubator-dubbo-spring-boot-project#321 for test case
+
+* Polish : Update Demos
+
+* Polish : Update version to be 0.2.1
+
+* Polish : apache/incubator-dubbo-spring-boot-project#319
+
+* Polish : apache/incubator-dubbo-spring-boot-project#226
+
+* Polish : apache/incubator-dubbo-spring-boot-project#309
+
+* Fix the test case's bugs
+
+* Fix the test case's bugs
+
+* Fix a JavaDoc issue
+
+* Update SNAPSHOT and add exclude list
+
+* Update SNAPSHOT to be 0.2.1-SNAPSHOT
+
+* Update JDK versions
+
+* Update JDK versions
+
+* Reactor & remove author info
+
+* Refactor : to save a shutdown hook thread
+
+* Remove javax.servlet:javax.servlet-api:3.1.0 that may cause class conflict, and use indirectly dependencies from spring-boot-starter-*
+
+* Polish apache/incubator-dubbo-spring-boot-project#341
+
+* Add the samples
+
+* Add a license
+
+* Add the samples of Zookeeper and Nacos
+
+* Update README.md
+
+* Fix the test cases
+
+* Polish apache/incubator-dubbo-spring-boot-project#366
+
+* Polish apache/incubator-dubbo-spring-boot-project#370
+
+* Polish apache/incubator-dubbo-spring-boot-project#370
+
+* 0.2.1 (#386)
+
+* Fix apache/incubator-dubbo-spring-boot-project#169
+
+* Polish : apache/incubator-dubbo-spring-boot-project#324 & apache/incubator-dubbo-spring-boot-project#325
+
+* Polish : apache/incubator-dubbo-spring-boot-project#315
+
+* Polish : apache/incubator-dubbo-spring-boot-project#321
+
+* Polish : apache/incubator-dubbo-spring-boot-project#321
+
+* Polish : apache/incubator-dubbo-spring-boot-project#321 for test case
+
+* Polish : Update Demos
+
+* Polish : Update version to be 0.2.1
+
+* Polish : apache/incubator-dubbo-spring-boot-project#319
+
+* Polish : apache/incubator-dubbo-spring-boot-project#226
+
+* Polish : apache/incubator-dubbo-spring-boot-project#309
+
+* Fix the test case's bugs
+
+* Fix the test case's bugs
+
+* Fix a JavaDoc issue
+
+* Update SNAPSHOT and add exclude list
+
+* Update SNAPSHOT to be 0.2.1-SNAPSHOT
+
+* Update JDK versions
+
+* Update JDK versions
+
+* Reactor & remove author info
+
+* Refactor : to save a shutdown hook thread
+
+* Remove javax.servlet:javax.servlet-api:3.1.0 that may cause class conflict, and use indirectly dependencies from spring-boot-starter-*
+
+* Polish apache/incubator-dubbo-spring-boot-project#341
+
+* Add the samples
+
+* Add a license
+
+* Add the samples of Zookeeper and Nacos
+
+* Update README.md
+
+* Fix the test cases
+
+* Polish apache/incubator-dubbo-spring-boot-project#366
+
+* Polish apache/incubator-dubbo-spring-boot-project#370
+
+* Polish apache/incubator-dubbo-spring-boot-project#370
+
+* Add NOTICE and DISCLAIMER
+
+* Remove spring.providers file from starter module (#403) (#404)
+
+* remove spring.providers file since it's only used by STS IDE
+
+* deep search in project, no useage
+
+* add @Override annotation (#409)
+
+* to method reference (#410)
+
+* add @Override annotation
+
+* modify method reference
+
+* Update README.md
+
+* Update README_CN.md
+
+* Update README_CN.md
+
+* Update README.md
+
+* Sync master to 0.2.x (#417)
+
+* 0.2.1 release (#402)
+
+* 0.2.1 (#345)
+
+* Fix apache/incubator-dubbo-spring-boot-project#169
+
+* Polish : apache/incubator-dubbo-spring-boot-project#324 & apache/incubator-dubbo-spring-boot-project#325
+
+* Polish : apache/incubator-dubbo-spring-boot-project#315
+
+* Polish : apache/incubator-dubbo-spring-boot-project#321
+
+* Polish : apache/incubator-dubbo-spring-boot-project#321
+
+* Polish : apache/incubator-dubbo-spring-boot-project#321 for test case
+
+* Polish : Update Demos
+
+* Polish : Update version to be 0.2.1
+
+* Polish : apache/incubator-dubbo-spring-boot-project#319
+
+* Polish : apache/incubator-dubbo-spring-boot-project#226
+
+* Polish : apache/incubator-dubbo-spring-boot-project#309
+
+* Fix the test case's bugs
+
+* Fix the test case's bugs
+
+* Fix a JavaDoc issue
+
+* Update SNAPSHOT and add exclude list
+
+* Update SNAPSHOT to be 0.2.1-SNAPSHOT
+
+* Update JDK versions
+
+* Update JDK versions
+
+* Reactor & remove author info
+
+* Refactor : to save a shutdown hook thread
+
+* 0.2.1 (#346)
+
+* Fix apache/incubator-dubbo-spring-boot-project#169
+
+* Polish : apache/incubator-dubbo-spring-boot-project#324 & apache/incubator-dubbo-spring-boot-project#325
+
+* Polish : apache/incubator-dubbo-spring-boot-project#315
+
+* Polish : apache/incubator-dubbo-spring-boot-project#321
+
+* Polish : apache/incubator-dubbo-spring-boot-project#321
+
+* Polish : apache/incubator-dubbo-spring-boot-project#321 for test case
+
+* Polish : Update Demos
+
+* Polish : Update version to be 0.2.1
+
+* Polish : apache/incubator-dubbo-spring-boot-project#319
+
+* Polish : apache/incubator-dubbo-spring-boot-project#226
+
+* Polish : apache/incubator-dubbo-spring-boot-project#309
+
+* Fix the test case's bugs
+
+* Fix the test case's bugs
+
+* Fix a JavaDoc issue
+
+* Update SNAPSHOT and add exclude list
+
+* Update SNAPSHOT to be 0.2.1-SNAPSHOT
+
+* Update JDK versions
+
+* Update JDK versions
+
+* Reactor & remove author info
+
+* Refactor : to save a shutdown hook thread
+
+* Remove javax.servlet:javax.servlet-api:3.1.0 that may cause class conflict, and use indirectly dependencies from spring-boot-starter-*
+
+* Polish apache/incubator-dubbo-spring-boot-project#341
+
+* 0.2.1 (#357)
+
+* Fix apache/incubator-dubbo-spring-boot-project#169
+
+* Polish : apache/incubator-dubbo-spring-boot-project#324 & apache/incubator-dubbo-spring-boot-project#325
+
+* Polish : apache/incubator-dubbo-spring-boot-project#315
+
+* Polish : apache/incubator-dubbo-spring-boot-project#321
+
+* Polish : apache/incubator-dubbo-spring-boot-project#321
+
+* Polish : apache/incubator-dubbo-spring-boot-project#321 for test case
+
+* Polish : Update Demos
+
+* Polish : Update version to be 0.2.1
+
+* Polish : apache/incubator-dubbo-spring-boot-project#319
+
+* Polish : apache/incubator-dubbo-spring-boot-project#226
+
+* Polish : apache/incubator-dubbo-spring-boot-project#309
+
+* Fix the test case's bugs
+
+* Fix the test case's bugs
+
+* Fix a JavaDoc issue
+
+* Update SNAPSHOT and add exclude list
+
+* Update SNAPSHOT to be 0.2.1-SNAPSHOT
+
+* Update JDK versions
+
+* Update JDK versions
+
+* Reactor & remove author info
+
+* Refactor : to save a shutdown hook thread
+
+* Remove javax.servlet:javax.servlet-api:3.1.0 that may cause class conflict, and use indirectly dependencies from spring-boot-starter-*
+
+* Polish apache/incubator-dubbo-spring-boot-project#341
+
+* Add the samples
+
+* Add a license
+
+* 0.2.1 (#360)
+
+* Fix apache/incubator-dubbo-spring-boot-project#169
+
+* Polish : apache/incubator-dubbo-spring-boot-project#324 & apache/incubator-dubbo-spring-boot-project#325
+
+* Polish : apache/incubator-dubbo-spring-boot-project#315
+
+* Polish : apache/incubator-dubbo-spring-boot-project#321
+
+* Polish : apache/incubator-dubbo-spring-boot-project#321
+
+* Polish : apache/incubator-dubbo-spring-boot-project#321 for test case
+
+* Polish : Update Demos
+
+* Polish : Update version to be 0.2.1
+
+* Polish : apache/incubator-dubbo-spring-boot-project#319
+
+* Polish : apache/incubator-dubbo-spring-boot-project#226
+
+* Polish : apache/incubator-dubbo-spring-boot-project#309
+
+* Fix the test case's bugs
+
+* Fix the test case's bugs
+
+* Fix a JavaDoc issue
+
+* Update SNAPSHOT and add exclude list
+
+* Update SNAPSHOT to be 0.2.1-SNAPSHOT
+
+* Update JDK versions
+
+* Update JDK versions
+
+* Reactor & remove author info
+
+* Refactor : to save a shutdown hook thread
+
+* Remove javax.servlet:javax.servlet-api:3.1.0 that may cause class conflict, and use indirectly dependencies from spring-boot-starter-*
+
+* Polish apache/incubator-dubbo-spring-boot-project#341
+
+* Add the samples
+
+* Add a license
+
+* Add the samples of Zookeeper and Nacos
+
+* Update README.md
+
+* Fix the test cases
+
+* 0.2.1 (#367)
+
+* Fix apache/incubator-dubbo-spring-boot-project#169
+
+* Polish : apache/incubator-dubbo-spring-boot-project#324 & apache/incubator-dubbo-spring-boot-project#325
+
+* Polish : apache/incubator-dubbo-spring-boot-project#315
+
+* Polish : apache/incubator-dubbo-spring-boot-project#321
+
+* Polish : apache/incubator-dubbo-spring-boot-project#321
+
+* Polish : apache/incubator-dubbo-spring-boot-project#321 for test case
+
+* Polish : Update Demos
+
+* Polish : Update version to be 0.2.1
+
+* Polish : apache/incubator-dubbo-spring-boot-project#319
+
+* Polish : apache/incubator-dubbo-spring-boot-project#226
+
+* Polish : apache/incubator-dubbo-spring-boot-project#309
+
+* Fix the test case's bugs
+
+* Fix the test case's bugs
+
+* Fix a JavaDoc issue
+
+* Update SNAPSHOT and add exclude list
+
+* Update SNAPSHOT to be 0.2.1-SNAPSHOT
+
+* Update JDK versions
+
+* Update JDK versions
+
+* Reactor & remove author info
+
+* Refactor : to save a shutdown hook thread
+
+* Remove javax.servlet:javax.servlet-api:3.1.0 that may cause class conflict, and use indirectly dependencies from spring-boot-starter-*
+
+* Polish apache/incubator-dubbo-spring-boot-project#341
+
+* Add the samples
+
+* Add a license
+
+* Add the samples of Zookeeper and Nacos
+
+* Update README.md
+
+* Fix the test cases
+
+* Polish apache/incubator-dubbo-spring-boot-project#366
+
+* 0.2.1 (#372) (#374)
+
+* Fix apache/incubator-dubbo-spring-boot-project#169
+
+* Polish : apache/incubator-dubbo-spring-boot-project#324 & apache/incubator-dubbo-spring-boot-project#325
+
+* Polish : apache/incubator-dubbo-spring-boot-project#315
+
+* Polish : apache/incubator-dubbo-spring-boot-project#321
+
+* Polish : apache/incubator-dubbo-spring-boot-project#321
+
+* Polish : apache/incubator-dubbo-spring-boot-project#321 for test case
+
+* Polish : Update Demos
+
+* Polish : Update version to be 0.2.1
+
+* Polish : apache/incubator-dubbo-spring-boot-project#319
+
+* Polish : apache/incubator-dubbo-spring-boot-project#226
+
+* Polish : apache/incubator-dubbo-spring-boot-project#309
+
+* Fix the test case's bugs
+
+* Fix the test case's bugs
+
+* Fix a JavaDoc issue
+
+* Update SNAPSHOT and add exclude list
+
+* Update SNAPSHOT to be 0.2.1-SNAPSHOT
+
+* Update JDK versions
+
+* Update JDK versions
+
+* Reactor & remove author info
+
+* Refactor : to save a shutdown hook thread
+
+* Remove javax.servlet:javax.servlet-api:3.1.0 that may cause class conflict, and use indirectly dependencies from spring-boot-starter-*
+
+* Polish apache/incubator-dubbo-spring-boot-project#341
+
+* Add the samples
+
+* Add a license
+
+* Add the samples of Zookeeper and Nacos
+
+* Update README.md
+
+* Fix the test cases
+
+* Polish apache/incubator-dubbo-spring-boot-project#366
+
+* Polish apache/incubator-dubbo-spring-boot-project#370
+
+* 0.2.1 (#378)
+
+* 0.2.1 (#372)
+
+* Fix apache/incubator-dubbo-spring-boot-project#169
+
+* Polish : apache/incubator-dubbo-spring-boot-project#324 & apache/incubator-dubbo-spring-boot-project#325
+
+* Polish : apache/incubator-dubbo-spring-boot-project#315
+
+* Polish : apache/incubator-dubbo-spring-boot-project#321
+
+* Polish : apache/incubator-dubbo-spring-boot-project#321
+
+* Polish : apache/incubator-dubbo-spring-boot-project#321 for test case
+
+* Polish : Update Demos
+
+* Polish : Update version to be 0.2.1
+
+* Polish : apache/incubator-dubbo-spring-boot-project#319
+
+* Polish : apache/incubator-dubbo-spring-boot-project#226
+
+* Polish : apache/incubator-dubbo-spring-boot-project#309
+
+* Fix the test case's bugs
+
+* Fix the test case's bugs
+
+* Fix a JavaDoc issue
+
+* Update SNAPSHOT and add exclude list
+
+* Update SNAPSHOT to be 0.2.1-SNAPSHOT
+
+* Update JDK versions
+
+* Update JDK versions
+
+* Reactor & remove author info
+
+* Refactor : to save a shutdown hook thread
+
+* Remove javax.servlet:javax.servlet-api:3.1.0 that may cause class conflict, and use indirectly dependencies from spring-boot-starter-*
+
+* Polish apache/incubator-dubbo-spring-boot-project#341
+
+* Add the samples
+
+* Add a license
+
+* Add the samples of Zookeeper and Nacos
+
+* Update README.md
+
+* Fix the test cases
+
+* Polish apache/incubator-dubbo-spring-boot-project#366
+
+* Polish apache/incubator-dubbo-spring-boot-project#370
+
+* 0.2.1 (#376)
+
+* Fix apache/incubator-dubbo-spring-boot-project#169
+
+* Polish : apache/incubator-dubbo-spring-boot-project#324 & apache/incubator-dubbo-spring-boot-project#325
+
+* Polish : apache/incubator-dubbo-spring-boot-project#315
+
+* Polish : apache/incubator-dubbo-spring-boot-project#321
+
+* Polish : apache/incubator-dubbo-spring-boot-project#321
+
+* Polish : apache/incubator-dubbo-spring-boot-project#321 for test case
+
+* Polish : Update Demos
+
+* Polish : Update version to be 0.2.1
+
+* Polish : apache/incubator-dubbo-spring-boot-project#319
+
+* Polish : apache/incubator-dubbo-spring-boot-project#226
+
+* Polish : apache/incubator-dubbo-spring-boot-project#309
+
+* Fix the test case's bugs
+
+* Fix the test case's bugs
+
+* Fix a JavaDoc issue
+
+* Update SNAPSHOT and add exclude list
+
+* Update SNAPSHOT to be 0.2.1-SNAPSHOT
+
+* Update JDK versions
+
+* Update JDK versions
+
+* Reactor & remove author info
+
+* Refactor : to save a shutdown hook thread
+
+* Remove javax.servlet:javax.servlet-api:3.1.0 that may cause class conflict, and use indirectly dependencies from spring-boot-starter-*
+
+* Polish apache/incubator-dubbo-spring-boot-project#341
+
+* Add the samples
+
+* Add a license
+
+* Add the samples of Zookeeper and Nacos
+
+* Update README.md
+
+* Fix the test cases
+
+* Polish apache/incubator-dubbo-spring-boot-project#366
+
+* Polish apache/incubator-dubbo-spring-boot-project#370
+
+* Polish apache/incubator-dubbo-spring-boot-project#370
+
+* 0.2.1 (#389)
+
+* 0.2.1 (#372)
+
+* Fix apache/incubator-dubbo-spring-boot-project#169
+
+* Polish : apache/incubator-dubbo-spring-boot-project#324 & apache/incubator-dubbo-spring-boot-project#325
+
+* Polish : apache/incubator-dubbo-spring-boot-project#315
+
+* Polish : apache/incubator-dubbo-spring-boot-project#321
+
+* Polish : apache/incubator-dubbo-spring-boot-project#321
+
+* Polish : apache/incubator-dubbo-spring-boot-project#321 for test case
+
+* Polish : Update Demos
+
+* Polish : Update version to be 0.2.1
+
+* Polish : apache/incubator-dubbo-spring-boot-project#319
+
+* Polish : apache/incubator-dubbo-spring-boot-project#226
+
+* Polish : apache/incubator-dubbo-spring-boot-project#309
+
+* Fix the test case's bugs
+
+* Fix the test case's bugs
+
+* Fix a JavaDoc issue
+
+* Update SNAPSHOT and add exclude list
+
+* Update SNAPSHOT to be 0.2.1-SNAPSHOT
+
+* Update JDK versions
+
+* Update JDK versions
+
+* Reactor & remove author info
+
+* Refactor : to save a shutdown hook thread
+
+* Remove javax.servlet:javax.servlet-api:3.1.0 that may cause class conflict, and use indirectly dependencies from spring-boot-starter-*
+
+* Polish apache/incubator-dubbo-spring-boot-project#341
+
+* Add the samples
+
+* Add a license
+
+* Add the samples of Zookeeper and Nacos
+
+* Update README.md
+
+* Fix the test cases
+
+* Polish apache/incubator-dubbo-spring-boot-project#366
+
+* Polish apache/incubator-dubbo-spring-boot-project#370
+
+* 0.2.1 (#376)
+
+* Fix apache/incubator-dubbo-spring-boot-project#169
+
+* Polish : apache/incubator-dubbo-spring-boot-project#324 & apache/incubator-dubbo-spring-boot-project#325
+
+* Polish : apache/incubator-dubbo-spring-boot-project#315
+
+* Polish : apache/incubator-dubbo-spring-boot-project#321
+
+* Polish : apache/incubator-dubbo-spring-boot-project#321
+
+* Polish : apache/incubator-dubbo-spring-boot-project#321 for test case
+
+* Polish : Update Demos
+
+* Polish : Update version to be 0.2.1
+
+* Polish : apache/incubator-dubbo-spring-boot-project#319
+
+* Polish : apache/incubator-dubbo-spring-boot-project#226
+
+* Polish : apache/incubator-dubbo-spring-boot-project#309
+
+* Fix the test case's bugs
+
+* Fix the test case's bugs
+
+* Fix a JavaDoc issue
+
+* Update SNAPSHOT and add exclude list
+
+* Update SNAPSHOT to be 0.2.1-SNAPSHOT
+
+* Update JDK versions
+
+* Update JDK versions
+
+* Reactor & remove author info
+
+* Refactor : to save a shutdown hook thread
+
+* Remove javax.servlet:javax.servlet-api:3.1.0 that may cause class conflict, and use indirectly dependencies from spring-boot-starter-*
+
+* Polish apache/incubator-dubbo-spring-boot-project#341
+
+* Add the samples
+
+* Add a license
+
+* Add the samples of Zookeeper and Nacos
+
+* Update README.md
+
+* Fix the test cases
+
+* Polish apache/incubator-dubbo-spring-boot-project#366
+
+* Polish apache/incubator-dubbo-spring-boot-project#370
+
+* Polish apache/incubator-dubbo-spring-boot-project#370
+
+* 0.2.1 (#386)
+
+* Fix apache/incubator-dubbo-spring-boot-project#169
+
+* Polish : apache/incubator-dubbo-spring-boot-project#324 & apache/incubator-dubbo-spring-boot-project#325
+
+* Polish : apache/incubator-dubbo-spring-boot-project#315
+
+* Polish : apache/incubator-dubbo-spring-boot-project#321
+
+* Polish : apache/incubator-dubbo-spring-boot-project#321
+
+* Polish : apache/incubator-dubbo-spring-boot-project#321 for test case
+
+* Polish : Update Demos
+
+* Polish : Update version to be 0.2.1
+
+* Polish : apache/incubator-dubbo-spring-boot-project#319
+
+* Polish : apache/incubator-dubbo-spring-boot-project#226
+
+* Polish : apache/incubator-dubbo-spring-boot-project#309
+
+* Fix the test case's bugs
+
+* Fix the test case's bugs
+
+* Fix a JavaDoc issue
+
+* Update SNAPSHOT and add exclude list
+
+* Update SNAPSHOT to be 0.2.1-SNAPSHOT
+
+* Update JDK versions
+
+* Update JDK versions
+
+* Reactor & remove author info
+
+* Refactor : to save a shutdown hook thread
+
+* Remove javax.servlet:javax.servlet-api:3.1.0 that may cause class conflict, and use indirectly dependencies from spring-boot-starter-*
+
+* Polish apache/incubator-dubbo-spring-boot-project#341
+
+* Add the samples
+
+* Add a license
+
+* Add the samples of Zookeeper and Nacos
+
+* Update README.md
+
+* Fix the test cases
+
+* Polish apache/incubator-dubbo-spring-boot-project#366
+
+* Polish apache/incubator-dubbo-spring-boot-project#370
+
+* Polish apache/incubator-dubbo-spring-boot-project#370
+
+* Add NOTICE and DISCLAIMER
+
+* Add Java11 support #383 (#393)
+
+* Upgrade jacoco to version 0.8.2 #383
+
+* Update travis setting
+
+add openjdk11
+remove openjdk10 openjdk9
+
+* Update mailing list address (#380)
+
+* Update README [user guide] link (#348)
+
+* Remove spring.providers file from starter module (#403) (#404)
+
+* remove spring.providers file since it's only used by STS IDE
+
+* deep search in project, no useage
+
+* add @Override annotation (#409)
+
+* to method reference (#410)
+
+* add @Override annotation
+
+* modify method reference
+
+* Update README.md
+
+* Update README_CN.md
+
+* Update README_CN.md
+
+* Update README.md
+
+* Update README.md
+
+* Update README_CN.md
+
+* Replace ${project.version} to ${revision} in the ""pom.xml"" files
+
+* Update <projectId>
+
+* Update README.md
+
+* Update README_CN.md
+
+* 0.2.x (#422)
+
+* Sync master to 0.2.x (#417)
+
+* 0.2.1 release (#402)
+
+* 0.2.1 (#345)
+
+* Fix apache/incubator-dubbo-spring-boot-project#169
+
+* Polish : apache/incubator-dubbo-spring-boot-project#324 & apache/incubator-dubbo-spring-boot-project#325
+
+* Polish : apache/incubator-dubbo-spring-boot-project#315
+
+* Polish : apache/incubator-dubbo-spring-boot-project#321
+
+* Polish : apache/incubator-dubbo-spring-boot-project#321
+
+* Polish : apache/incubator-dubbo-spring-boot-project#321 for test case
+
+* Polish : Update Demos
+
+* Polish : Update version to be 0.2.1
+
+* Polish : apache/incubator-dubbo-spring-boot-project#319
+
+* Polish : apache/incubator-dubbo-spring-boot-project#226
+
+* Polish : apache/incubator-dubbo-spring-boot-project#309
+
+* Fix the test case's bugs
+
+* Fix the test case's bugs
+
+* Fix a JavaDoc issue
+
+* Update SNAPSHOT and add exclude list
+
+* Update SNAPSHOT to be 0.2.1-SNAPSHOT
+
+* Update JDK versions
+
+* Update JDK versions
+
+* Reactor & remove author info
+
+* Refactor : to save a shutdown hook thread
+
+* 0.2.1 (#346)
+
+* Fix apache/incubator-dubbo-spring-boot-project#169
+
+* Polish : apache/incubator-dubbo-spring-boot-project#324 & apache/incubator-dubbo-spring-boot-project#325
+
+* Polish : apache/incubator-dubbo-spring-boot-project#315
+
+* Polish : apache/incubator-dubbo-spring-boot-project#321
+
+* Polish : apache/incubator-dubbo-spring-boot-project#321
+
+* Polish : apache/incubator-dubbo-spring-boot-project#321 for test case
+
+* Polish : Update Demos
+
+* Polish : Update version to be 0.2.1
+
+* Polish : apache/incubator-dubbo-spring-boot-project#319
+
+* Polish : apache/incubator-dubbo-spring-boot-project#226
+
+* Polish : apache/incubator-dubbo-spring-boot-project#309
+
+* Fix the test case's bugs
+
+* Fix the test case's bugs
+
+* Fix a JavaDoc issue
+
+* Update SNAPSHOT and add exclude list
+
+* Update SNAPSHOT to be 0.2.1-SNAPSHOT
+
+* Update JDK versions
+
+* Update JDK versions
+
+* Reactor & remove author info
+
+* Refactor : to save a shutdown hook thread
+
+* Remove javax.servlet:javax.servlet-api:3.1.0 that may cause class conflict, and use indirectly dependencies from spring-boot-starter-*
+
+* Polish apache/incubator-dubbo-spring-boot-project#341
+
+* 0.2.1 (#357)
+
+* Fix apache/incubator-dubbo-spring-boot-project#169
+
+* Polish : apache/incubator-dubbo-spring-boot-project#324 & apache/incubator-dubbo-spring-boot-project#325
+
+* Polish : apache/incubator-dubbo-spring-boot-project#315
+
+* Polish : apache/incubator-dubbo-spring-boot-project#321
+
+* Polish : apache/incubator-dubbo-spring-boot-project#321
+
+* Polish : apache/incubator-dubbo-spring-boot-project#321 for test case
+
+* Polish : Update Demos
+
+* Polish : Update version to be 0.2.1
+
+* Polish : apache/incubator-dubbo-spring-boot-project#319
+
+* Polish : apache/incubator-dubbo-spring-boot-project#226
+
+* Polish : apache/incubator-dubbo-spring-boot-project#309
+
+* Fix the test case's bugs
+
+* Fix the test case's bugs
+
+* Fix a JavaDoc issue
+
+* Update SNAPSHOT and add exclude list
+
+* Update SNAPSHOT to be 0.2.1-SNAPSHOT
+
+* Update JDK versions
+
+* Update JDK versions
+
+* Reactor & remove author info
+
+* Refactor : to save a shutdown hook thread
+
+* Remove javax.servlet:javax.servlet-api:3.1.0 that may cause class conflict, and use indirectly dependencies from spring-boot-starter-*
+
+* Polish apache/incubator-dubbo-spring-boot-project#341
+
+* Add the samples
+
+* Add a license
+
+* 0.2.1 (#360)
+
+* Fix apache/incubator-dubbo-spring-boot-project#169
+
+* Polish : apache/incubator-dubbo-spring-boot-project#324 & apache/incubator-dubbo-spring-boot-project#325
+
+* Polish : apache/incubator-dubbo-spring-boot-project#315
+
+* Polish : apache/incubator-dubbo-spring-boot-project#321
+
+* Polish : apache/incubator-dubbo-spring-boot-project#321
+
+* Polish : apache/incubator-dubbo-spring-boot-project#321 for test case
+
+* Polish : Update Demos
+
+* Polish : Update version to be 0.2.1
+
+* Polish : apache/incubator-dubbo-spring-boot-project#319
+
+* Polish : apache/incubator-dubbo-spring-boot-project#226
+
+* Polish : apache/incubator-dubbo-spring-boot-project#309
+
+* Fix the test case's bugs
+
+* Fix the test case's bugs
+
+* Fix a JavaDoc issue
+
+* Update SNAPSHOT and add exclude list
+
+* Update SNAPSHOT to be 0.2.1-SNAPSHOT
+
+* Update JDK versions
+
+* Update JDK versions
+
+* Reactor & remove author info
+
+* Refactor : to save a shutdown hook thread
+
+* Remove javax.servlet:javax.servlet-api:3.1.0 that may cause class conflict, and use indirectly dependencies from spring-boot-starter-*
+
+* Polish apache/incubator-dubbo-spring-boot-project#341
+
+* Add the samples
+
+* Add a license
+
+* Add the samples of Zookeeper and Nacos
+
+* Update README.md
+
+* Fix the test cases
+
+* 0.2.1 (#367)
+
+* Fix apache/incubator-dubbo-spring-boot-project#169
+
+* Polish : apache/incubator-dubbo-spring-boot-project#324 & apache/incubator-dubbo-spring-boot-project#325
+
+* Polish : apache/incubator-dubbo-spring-boot-project#315
+
+* Polish : apache/incubator-dubbo-spring-boot-project#321
+
+* Polish : apache/incubator-dubbo-spring-boot-project#321
+
+* Polish : apache/incubator-dubbo-spring-boot-project#321 for test case
+
+* Polish : Update Demos
+
+* Polish : Update version to be 0.2.1
+
+* Polish : apache/incubator-dubbo-spring-boot-project#319
+
+* Polish : apache/incubator-dubbo-spring-boot-project#226
+
+* Polish : apache/incubator-dubbo-spring-boot-project#309
+
+* Fix the test case's bugs
+
+* Fix the test case's bugs
+
+* Fix a JavaDoc issue
+
+* Update SNAPSHOT and add exclude list
+
+* Update SNAPSHOT to be 0.2.1-SNAPSHOT
+
+* Update JDK versions
+
+* Update JDK versions
+
+* Reactor & remove author info
+
+* Refactor : to save a shutdown hook thread
+
+* Remove javax.servlet:javax.servlet-api:3.1.0 that may cause class conflict, and use indirectly dependencies from spring-boot-starter-*
+
+* Polish apache/incubator-dubbo-spring-boot-project#341
+
+* Add the samples
+
+* Add a license
+
+* Add the samples of Zookeeper and Nacos
+
+* Update README.md
+
+* Fix the test cases
+
+* Polish apache/incubator-dubbo-spring-boot-project#366
+
+* 0.2.1 (#372) (#374)
+
+* Fix apache/incubator-dubbo-spring-boot-project#169
+
+* Polish : apache/incubator-dubbo-spring-boot-project#324 & apache/incubator-dubbo-spring-boot-project#325
+
+* Polish : apache/incubator-dubbo-spring-boot-project#315
+
+* Polish : apache/incubator-dubbo-spring-boot-project#321
+
+* Polish : apache/incubator-dubbo-spring-boot-project#321
+
+* Polish : apache/incubator-dubbo-spring-boot-project#321 for test case
+
+* Polish : Update Demos
+
+* Polish : Update version to be 0.2.1
+
+* Polish : apache/incubator-dubbo-spring-boot-project#319
+
+* Polish : apache/incubator-dubbo-spring-boot-project#226
+
+* Polish : apache/incubator-dubbo-spring-boot-project#309
+
+* Fix the test case's bugs
+
+* Fix the test case's bugs
+
+* Fix a JavaDoc issue
+
+* Update SNAPSHOT and add exclude list
+
+* Update SNAPSHOT to be 0.2.1-SNAPSHOT
+
+* Update JDK versions
+
+* Update JDK versions
+
+* Reactor & remove author info
+
+* Refactor : to save a shutdown hook thread
+
+* Remove javax.servlet:javax.servlet-api:3.1.0 that may cause class conflict, and use indirectly dependencies from spring-boot-starter-*
+
+* Polish apache/incubator-dubbo-spring-boot-project#341
+
+* Add the samples
+
+* Add a license
+
+* Add the samples of Zookeeper and Nacos
+
+* Update README.md
+
+* Fix the test cases
+
+* Polish apache/incubator-dubbo-spring-boot-project#366
+
+* Polish apache/incubator-dubbo-spring-boot-project#370
+
+* 0.2.1 (#378)
+
+* 0.2.1 (#372)
+
+* Fix apache/incubator-dubbo-spring-boot-project#169
+
+* Polish : apache/incubator-dubbo-spring-boot-project#324 & apache/incubator-dubbo-spring-boot-project#325
+
+* Polish : apache/incubator-dubbo-spring-boot-project#315
+
+* Polish : apache/incubator-dubbo-spring-boot-project#321
+
+* Polish : apache/incubator-dubbo-spring-boot-project#321
+
+* Polish : apache/incubator-dubbo-spring-boot-project#321 for test case
+
+* Polish : Update Demos
+
+* Polish : Update version to be 0.2.1
+
+* Polish : apache/incubator-dubbo-spring-boot-project#319
+
+* Polish : apache/incubator-dubbo-spring-boot-project#226
+
+* Polish : apache/incubator-dubbo-spring-boot-project#309
+
+* Fix the test case's bugs
+
+* Fix the test case's bugs
+
+* Fix a JavaDoc issue
+
+* Update SNAPSHOT and add exclude list
+
+* Update SNAPSHOT to be 0.2.1-SNAPSHOT
+
+* Update JDK versions
+
+* Update JDK versions
+
+* Reactor & remove author info
+
+* Refactor : to save a shutdown hook thread
+
+* Remove javax.servlet:javax.servlet-api:3.1.0 that may cause class conflict, and use indirectly dependencies from spring-boot-starter-*
+
+* Polish apache/incubator-dubbo-spring-boot-project#341
+
+* Add the samples
+
+* Add a license
+
+* Add the samples of Zookeeper and Nacos
+
+* Update README.md
+
+* Fix the test cases
+
+* Polish apache/incubator-dubbo-spring-boot-project#366
+
+* Polish apache/incubator-dubbo-spring-boot-project#370
+
+* 0.2.1 (#376)
+
+* Fix apache/incubator-dubbo-spring-boot-project#169
+
+* Polish : apache/incubator-dubbo-spring-boot-project#324 & apache/incubator-dubbo-spring-boot-project#325
+
+* Polish : apache/incubator-dubbo-spring-boot-project#315
+
+* Polish : apache/incubator-dubbo-spring-boot-project#321
+
+* Polish : apache/incubator-dubbo-spring-boot-project#321
+
+* Polish : apache/incubator-dubbo-spring-boot-project#321 for test case
+
+* Polish : Update Demos
+
+* Polish : Update version to be 0.2.1
+
+* Polish : apache/incubator-dubbo-spring-boot-project#319
+
+* Polish : apache/incubator-dubbo-spring-boot-project#226
+
+* Polish : apache/incubator-dubbo-spring-boot-project#309
+
+* Fix the test case's bugs
+
+* Fix the test case's bugs
+
+* Fix a JavaDoc issue
+
+* Update SNAPSHOT and add exclude list
+
+* Update SNAPSHOT to be 0.2.1-SNAPSHOT
+
+* Update JDK versions
+
+* Update JDK versions
+
+* Reactor & remove author info
+
+* Refactor : to save a shutdown hook thread
+
+* Remove javax.servlet:javax.servlet-api:3.1.0 that may cause class conflict, and use indirectly dependencies from spring-boot-starter-*
+
+* Polish apache/incubator-dubbo-spring-boot-project#341
+
+* Add the samples
+
+* Add a license
+
+* Add the samples of Zookeeper and Nacos
+
+* Update README.md
+
+* Fix the test cases
+
+* Polish apache/incubator-dubbo-spring-boot-project#366
+
+* Polish apache/incubator-dubbo-spring-boot-project#370
+
+* Polish apache/incubator-dubbo-spring-boot-project#370
+
+* 0.2.1 (#389)
+
+* 0.2.1 (#372)
+
+* Fix apache/incubator-dubbo-spring-boot-project#169
+
+* Polish : apache/incubator-dubbo-spring-boot-project#324 & apache/incubator-dubbo-spring-boot-project#325
+
+* Polish : apache/incubator-dubbo-spring-boot-project#315
+
+* Polish : apache/incubator-dubbo-spring-boot-project#321
+
+* Polish : apache/incubator-dubbo-spring-boot-project#321
+
+* Polish : apache/incubator-dubbo-spring-boot-project#321 for test case
+
+* Polish : Update Demos
+
+* Polish : Update version to be 0.2.1
+
+* Polish : apache/incubator-dubbo-spring-boot-project#319
+
+* Polish : apache/incubator-dubbo-spring-boot-project#226
+
+* Polish : apache/incubator-dubbo-spring-boot-project#309
+
+* Fix the test case's bugs
+
+* Fix the test case's bugs
+
+* Fix a JavaDoc issue
+
+* Update SNAPSHOT and add exclude list
+
+* Update SNAPSHOT to be 0.2.1-SNAPSHOT
+
+* Update JDK versions
+
+* Update JDK versions
+
+* Reactor & remove author info
+
+* Refactor : to save a shutdown hook thread
+
+* Remove javax.servlet:javax.servlet-api:3.1.0 that may cause class conflict, and use indirectly dependencies from spring-boot-starter-*
+
+* Polish apache/incubator-dubbo-spring-boot-project#341
+
+* Add the samples
+
+* Add a license
+
+* Add the samples of Zookeeper and Nacos
+
+* Update README.md
+
+* Fix the test cases
+
+* Polish apache/incubator-dubbo-spring-boot-project#366
+
+* Polish apache/incubator-dubbo-spring-boot-project#370
+
+* 0.2.1 (#376)
+
+* Fix apache/incubator-dubbo-spring-boot-project#169
+
+* Polish : apache/incubator-dubbo-spring-boot-project#324 & apache/incubator-dubbo-spring-boot-project#325
+
+* Polish : apache/incubator-dubbo-spring-boot-project#315
+
+* Polish : apache/incubator-dubbo-spring-boot-project#321
+
+* Polish : apache/incubator-dubbo-spring-boot-project#321
+
+* Polish : apache/incubator-dubbo-spring-boot-project#321 for test case
+
+* Polish : Update Demos
+
+* Polish : Update version to be 0.2.1
+
+* Polish : apache/incubator-dubbo-spring-boot-project#319
+
+* Polish : apache/incubator-dubbo-spring-boot-project#226
+
+* Polish : apache/incubator-dubbo-spring-boot-project#309
+
+* Fix the test case's bugs
+
+* Fix the test case's bugs
+
+* Fix a JavaDoc issue
+
+* Update SNAPSHOT and add exclude list
+
+* Update SNAPSHOT to be 0.2.1-SNAPSHOT
+
+* Update JDK versions
+
+* Update JDK versions
+
+* Reactor & remove author info
+
+* Refactor : to save a shutdown hook thread
+
+* Remove javax.servlet:javax.servlet-api:3.1.0 that may cause class conflict, and use indirectly dependencies from spring-boot-starter-*
+
+* Polish apache/incubator-dubbo-spring-boot-project#341
+
+* Add the samples
+
+* Add a license
+
+* Add the samples of Zookeeper and Nacos
+
+* Update README.md
+
+* Fix the test cases
+
+* Polish apache/incubator-dubbo-spring-boot-project#366
+
+* Polish apache/incubator-dubbo-spring-boot-project#370
+
+* Polish apache/incubator-dubbo-spring-boot-project#370
+
+* 0.2.1 (#386)
+
+* Fix apache/incubator-dubbo-spring-boot-project#169
+
+* Polish : apache/incubator-dubbo-spring-boot-project#324 & apache/incubator-dubbo-spring-boot-project#325
+
+* Polish : apache/incubator-dubbo-spring-boot-project#315
+
+* Polish : apache/incubator-dubbo-spring-boot-project#321
+
+* Polish : apache/incubator-dubbo-spring-boot-project#321
+
+* Polish : apache/incubator-dubbo-spring-boot-project#321 for test case
+
+* Polish : Update Demos
+
+* Polish : Update version to be 0.2.1
+
+* Polish : apache/incubator-dubbo-spring-boot-project#319
+
+* Polish : apache/incubator-dubbo-spring-boot-project#226
+
+* Polish : apache/incubator-dubbo-spring-boot-project#309
+
+* Fix the test case's bugs
+
+* Fix the test case's bugs
+
+* Fix a JavaDoc issue
+
+* Update SNAPSHOT and add exclude list
+
+* Update SNAPSHOT to be 0.2.1-SNAPSHOT
+
+* Update JDK versions
+
+* Update JDK versions
+
+* Reactor & remove author info
+
+* Refactor : to save a shutdown hook thread
+
+* Remove javax.servlet:javax.servlet-api:3.1.0 that may cause class conflict, and use indirectly dependencies from spring-boot-starter-*
+
+* Polish apache/incubator-dubbo-spring-boot-project#341
+
+* Add the samples
+
+* Add a license
+
+* Add the samples of Zookeeper and Nacos
+
+* Update README.md
+
+* Fix the test cases
+
+* Polish apache/incubator-dubbo-spring-boot-project#366
+
+* Polish apache/incubator-dubbo-spring-boot-project#370
+
+* Polish apache/incubator-dubbo-spring-boot-project#370
+
+* Add NOTICE and DISCLAIMER
+
+* Add Java11 support #383 (#393)
+
+* Upgrade jacoco to version 0.8.2 #383
+
+* Update travis setting
+
+add openjdk11
+remove openjdk10 openjdk9
+
+* Update mailing list address (#380)
+
+* Update README [user guide] link (#348)
+
+* Remove spring.providers file from starter module (#403) (#404)
+
+* remove spring.providers file since it's only used by STS IDE
+
+* deep search in project, no useage
+
+* add @Override annotation (#409)
+
+* to method reference (#410)
+
+* add @Override annotation
+
+* modify method reference
+
+* Update README.md
+
+* Update README_CN.md
+
+* Update README_CN.md
+
+* Update README.md
+
+* Replace ${project.version} to ${revision} in the ""pom.xml"" files
+
+* Update <projectId>
+
+* 1.0.0 (#429)
+
+* Polish apache/incubator-dubbo-spring-boot-project#395
+
+* Polish apache/incubator-dubbo-spring-boot-project#395 fixed issues
+
+* Polish apache/incubator-dubbo-spring-boot-project#395 Update documents
+
+* Update the root POM's parent
+
+* Replace ${project.version} to ${revision} in the ""pom.xml"" files
+
+* Update <projectId>
+
+* Remove Netty Project
+
+* Polish : apache/incubator-dubbo-spring-boot-project#427
+
+* Polish : apache/incubator-dubbo-spring-boot-project#427
+
+* Polish : apache/incubator-dubbo-spring-boot-project#427
+
+* 1.0.0 (#431)
+
+* Polish apache/incubator-dubbo-spring-boot-project#395
+
+* Polish apache/incubator-dubbo-spring-boot-project#395 fixed issues
+
+* Polish apache/incubator-dubbo-spring-boot-project#395 Update documents
+
+* Update the root POM's parent
+
+* Replace ${project.version} to ${revision} in the ""pom.xml"" files
+
+* Update <projectId>
+
+* Remove Netty Project
+
+* Polish : apache/incubator-dubbo-spring-boot-project#427
+
+* Polish : apache/incubator-dubbo-spring-boot-project#427
+
+* Polish : apache/incubator-dubbo-spring-boot-project#427
+
+* Polish : apache/incubator-dubbo-spring-boot-project#427 : Update Documents
+
+* 2.7.0 (#433)
+
+* Polish apache/incubator-dubbo-spring-boot-project#395
+
+* Polish apache/incubator-dubbo-spring-boot-project#395 fixed issues
+
+* Polish apache/incubator-dubbo-spring-boot-project#395 Update documents
+
+* Update the root POM's parent
+
+* Replace ${project.version} to ${revision} in the ""pom.xml"" files
+
+* Update <projectId>
+
+* Remove Netty Project
+
+* Polish : apache/incubator-dubbo-spring-boot-project#427
+
+* Polish : apache/incubator-dubbo-spring-boot-project#427
+
+* Polish : apache/incubator-dubbo-spring-boot-project#427
+
+* Polish : apache/incubator-dubbo-spring-boot-project#427 : Update Documents
+
+* Polish : apache/incubator-dubbo-spring-boot-project#427 : Fixed include pattern
+
+* 1.0.0 (#435)
+
+* Polish apache/incubator-dubbo-spring-boot-project#395
+
+* Polish apache/incubator-dubbo-spring-boot-project#395 fixed issues
+
+* Polish apache/incubator-dubbo-spring-boot-project#395 Update documents
+
+* Update the root POM's parent
+
+* Replace ${project.version} to ${revision} in the ""pom.xml"" files
+
+* Update <projectId>
+
+* Remove Netty Project
+
+* Polish : apache/incubator-dubbo-spring-boot-project#427
+
+* Polish : apache/incubator-dubbo-spring-boot-project#427
+
+* Polish : apache/incubator-dubbo-spring-boot-project#427
+
+* Polish : apache/incubator-dubbo-spring-boot-project#427 : Update Documents
+
+* Polish : apache/incubator-dubbo-spring-boot-project#427 : Fixed include pattern
+
+* Polish : apache/incubator-dubbo-spring-boot-project#427 : Correct words
+
+* Update README.md (#445)
+
+* Fix typo (#446)
+
+* Move png files to subfolder (#448)
+
+* Enable flatten plugin by default (#441) (#443)
+
+* Polish apache/incubator-dubbo-spring-boot-project#449
+
+* Polish apache/incubator-dubbo-spring-boot-project#467 : Set ""spring.main.allow-bean-definition-overriding"" property to be true as default
+
+* Polish apache/incubator-dubbo-spring-boot-project#468 : Upgrade Dubbo 2.7.1
+
+* Polish apache/incubator-dubbo-spring-boot-project#437 : Remove -XX:PermSize=64m -XX:MaxPermSize=128m
+
+* Fix the issues of test cases
+
+* Update Samples
+
+* Update default version using Dubbo's version
+
+* Polish apache/incubator-dubbo-spring-boot-project#456 : Update the Zookeeper dependencies
+
+* Polish apache/incubator-dubbo-spring-boot-project#458 : dubbo.metadata-report.address propertie description not provided
+
+* Polish apache/incubator-dubbo-spring-boot-project#458 : dubbo.metadata-report.address propertie description not provided
+
+* Update 2.7.1
+
+* Polish apache/incubator-dubbo-spring-boot-project#458 : Add ""override"" property
+
+* Polish apache/incubator-dubbo-spring-boot-project#451 : Duplicate application configs
+
+* Bugfix
+
+* Update SNAPSHOT
+
+* Update 2.7.1
+
+* 2.7.x (#478)
+
+* Fix apache/incubator-dubbo-spring-boot-project#169
+
+* 0.2.1 (#345)
+
+* Fix apache/incubator-dubbo-spring-boot-project#169
+
+* Polish : apache/incubator-dubbo-spring-boot-project#324 & apache/incubator-dubbo-spring-boot-project#325
+
+* Polish : apache/incubator-dubbo-spring-boot-project#315
+
+* Polish : apache/incubator-dubbo-spring-boot-project#321
+
+* Polish : apache/incubator-dubbo-spring-boot-project#321
+
+* Polish : apache/incubator-dubbo-spring-boot-project#321 for test case
+
+* Polish : Update Demos
+
+* Polish : Update version to be 0.2.1
+
+* Polish : apache/incubator-dubbo-spring-boot-project#319
+
+* Polish : apache/incubator-dubbo-spring-boot-project#226
+
+* Polish : apache/incubator-dubbo-spring-boot-project#309
+
+* Fix the test case's bugs
+
+* Fix the test case's bugs
+
+* Fix a JavaDoc issue
+
+* Update SNAPSHOT and add exclude list
+
+* Update SNAPSHOT to be 0.2.1-SNAPSHOT
+
+* Update JDK versions
+
+* Update JDK versions
+
+* Reactor & remove author info
+
+* Refactor : to save a shutdown hook thread
+
+* 0.2.1 (#346)
+
+* Fix apache/incubator-dubbo-spring-boot-project#169
+
+* Polish : apache/incubator-dubbo-spring-boot-project#324 & apache/incubator-dubbo-spring-boot-project#325
+
+* Polish : apache/incubator-dubbo-spring-boot-project#315
+
+* Polish : apache/incubator-dubbo-spring-boot-project#321
+
+* Polish : apache/incubator-dubbo-spring-boot-project#321
+
+* Polish : apache/incubator-dubbo-spring-boot-project#321 for test case
+
+* Polish : Update Demos
+
+* Polish : Update version to be 0.2.1
+
+* Polish : apache/incubator-dubbo-spring-boot-project#319
+
+* Polish : apache/incubator-dubbo-spring-boot-project#226
+
+* Polish : apache/incubator-dubbo-spring-boot-project#309
+
+* Fix the test case's bugs
+
+* Fix the test case's bugs
+
+* Fix a JavaDoc issue
+
+* Update SNAPSHOT and add exclude list
+
+* Update SNAPSHOT to be 0.2.1-SNAPSHOT
+
+* Update JDK versions
+
+* Update JDK versions
+
+* Reactor & remove author info
+
+* Refactor : to save a shutdown hook thread
+
+* Remove javax.servlet:javax.servlet-api:3.1.0 that may cause class conflict, and use indirectly dependencies from spring-boot-starter-*
+
+* Polish apache/incubator-dubbo-spring-boot-project#341
+
+* 0.2.1 (#357)
+
+* Fix apache/incubator-dubbo-spring-boot-project#169
+
+* Polish : apache/incubator-dubbo-spring-boot-project#324 & apache/incubator-dubbo-spring-boot-project#325
+
+* Polish : apache/incubator-dubbo-spring-boot-project#315
+
+* Polish : apache/incubator-dubbo-spring-boot-project#321
+
+* Polish : apache/incubator-dubbo-spring-boot-project#321
+
+* Polish : apache/incubator-dubbo-spring-boot-project#321 for test case
+
+* Polish : Update Demos
+
+* Polish : Update version to be 0.2.1
+
+* Polish : apache/incubator-dubbo-spring-boot-project#319
+
+* Polish : apache/incubator-dubbo-spring-boot-project#226
+
+* Polish : apache/incubator-dubbo-spring-boot-project#309
+
+* Fix the test case's bugs
+
+* Fix the test case's bugs
+
+* Fix a JavaDoc issue
+
+* Update SNAPSHOT and add exclude list
+
+* Update SNAPSHOT to be 0.2.1-SNAPSHOT
+
+* Update JDK versions
+
+* Update JDK versions
+
+* Reactor & remove author info
+
+* Refactor : to save a shutdown hook thread
+
+* Remove javax.servlet:javax.servlet-api:3.1.0 that may cause class conflict, and use indirectly dependencies from spring-boot-starter-*
+
+* Polish apache/incubator-dubbo-spring-boot-project#341
+
+* Add the samples
+
+* Add a license
+
+* 0.2.1 (#360)
+
+* Fix apache/incubator-dubbo-spring-boot-project#169
+
+* Polish : apache/incubator-dubbo-spring-boot-project#324 & apache/incubator-dubbo-spring-boot-project#325
+
+* Polish : apache/incubator-dubbo-spring-boot-project#315
+
+* Polish : apache/incubator-dubbo-spring-boot-project#321
+
+* Polish : apache/incubator-dubbo-spring-boot-project#321
+
+* Polish : apache/incubator-dubbo-spring-boot-project#321 for test case
+
+* Polish : Update Demos
+
+* Polish : Update version to be 0.2.1
+
+* Polish : apache/incubator-dubbo-spring-boot-project#319
+
+* Polish : apache/incubator-dubbo-spring-boot-project#226
+
+* Polish : apache/incubator-dubbo-spring-boot-project#309
+
+* Fix the test case's bugs
+
+* Fix the test case's bugs
+
+* Fix a JavaDoc issue
+
+* Update SNAPSHOT and add exclude list
+
+* Update SNAPSHOT to be 0.2.1-SNAPSHOT
+
+* Update JDK versions
+
+* Update JDK versions
+
+* Reactor & remove author info
+
+* Refactor : to save a shutdown hook thread
+
+* Remove javax.servlet:javax.servlet-api:3.1.0 that may cause class conflict, and use indirectly dependencies from spring-boot-starter-*
+
+* Polish apache/incubator-dubbo-spring-boot-project#341
+
+* Add the samples
+
+* Add a license
+
+* Add the samples of Zookeeper and Nacos
+
+* Update README.md
+
+* Fix the test cases
+
+* 0.2.1 (#367)
+
+* Fix apache/incubator-dubbo-spring-boot-project#169
+
+* Polish : apache/incubator-dubbo-spring-boot-project#324 & apache/incubator-dubbo-spring-boot-project#325
+
+* Polish : apache/incubator-dubbo-spring-boot-project#315
+
+* Polish : apache/incubator-dubbo-spring-boot-project#321
+
+* Polish : apache/incubator-dubbo-spring-boot-project#321
+
+* Polish : apache/incubator-dubbo-spring-boot-project#321 for test case
+
+* Polish : Update Demos
+
+* Polish : Update version to be 0.2.1
+
+* Polish : apache/incubator-dubbo-spring-boot-project#319
+
+* Polish : apache/incubator-dubbo-spring-boot-project#226
+
+* Polish : apache/incubator-dubbo-spring-boot-project#309
+
+* Fix the test case's bugs
+
+* Fix the test case's bugs
+
+* Fix a JavaDoc issue
+
+* Update SNAPSHOT and add exclude list
+
+* Update SNAPSHOT to be 0.2.1-SNAPSHOT
+
+* Update JDK versions
+
+* Update JDK versions
+
+* Reactor & remove author info
+
+* Refactor : to save a shutdown hook thread
+
+* Remove javax.servlet:javax.servlet-api:3.1.0 that may cause class conflict, and use indirectly dependencies from spring-boot-starter-*
+
+* Polish apache/incubator-dubbo-spring-boot-project#341
+
+* Add the samples
+
+* Add a license
+
+* Add the samples of Zookeeper and Nacos
+
+* Update README.md
+
+* Fix the test cases
+
+* Polish apache/incubator-dubbo-spring-boot-project#366
+
+* 0.2.1 (#372) (#374)
+
+* Fix apache/incubator-dubbo-spring-boot-project#169
+
+* Polish : apache/incubator-dubbo-spring-boot-project#324 & apache/incubator-dubbo-spring-boot-project#325
+
+* Polish : apache/incubator-dubbo-spring-boot-project#315
+
+* Polish : apache/incubator-dubbo-spring-boot-project#321
+
+* Polish : apache/incubator-dubbo-spring-boot-project#321
+
+* Polish : apache/incubator-dubbo-spring-boot-project#321 for test case
+
+* Polish : Update Demos
+
+* Polish : Update version to be 0.2.1
+
+* Polish : apache/incubator-dubbo-spring-boot-project#319
+
+* Polish : apache/incubator-dubbo-spring-boot-project#226
+
+* Polish : apache/incubator-dubbo-spring-boot-project#309
+
+* Fix the test case's bugs
+
+* Fix the test case's bugs
+
+* Fix a JavaDoc issue
+
+* Update SNAPSHOT and add exclude list
+
+* Update SNAPSHOT to be 0.2.1-SNAPSHOT
+
+* Update JDK versions
+
+* Update JDK versions
+
+* Reactor & remove author info
+
+* Refactor : to save a shutdown hook thread
+
+* Remove javax.servlet:javax.servlet-api:3.1.0 that may cause class conflict, and use indirectly dependencies from spring-boot-starter-*
+
+* Polish apache/incubator-dubbo-spring-boot-project#341
+
+* Add the samples
+
+* Add a license
+
+* Add the samples of Zookeeper and Nacos
+
+* Update README.md
+
+* Fix the test cases
+
+* Polish apache/incubator-dubbo-spring-boot-project#366
+
+* Polish apache/incubator-dubbo-spring-boot-project#370
+
+* 0.2.1 (#378)
+
+* 0.2.1 (#372)
+
+* Fix apache/incubator-dubbo-spring-boot-project#169
+
+* Polish : apache/incubator-dubbo-spring-boot-project#324 & apache/incubator-dubbo-spring-boot-project#325
+
+* Polish : apache/incubator-dubbo-spring-boot-project#315
+
+* Polish : apache/incubator-dubbo-spring-boot-project#321
+
+* Polish : apache/incubator-dubbo-spring-boot-project#321
+
+* Polish : apache/incubator-dubbo-spring-boot-project#321 for test case
+
+* Polish : Update Demos
+
+* Polish : Update version to be 0.2.1
+
+* Polish : apache/incubator-dubbo-spring-boot-project#319
+
+* Polish : apache/incubator-dubbo-spring-boot-project#226
+
+* Polish : apache/incubator-dubbo-spring-boot-project#309
+
+* Fix the test case's bugs
+
+* Fix the test case's bugs
+
+* Fix a JavaDoc issue
+
+* Update SNAPSHOT and add exclude list
+
+* Update SNAPSHOT to be 0.2.1-SNAPSHOT
+
+* Update JDK versions
+
+* Update JDK versions
+
+* Reactor & remove author info
+
+* Refactor : to save a shutdown hook thread
+
+* Remove javax.servlet:javax.servlet-api:3.1.0 that may cause class conflict, and use indirectly dependencies from spring-boot-starter-*
+
+* Polish apache/incubator-dubbo-spring-boot-project#341
+
+* Add the samples
+
+* Add a license
+
+* Add the samples of Zookeeper and Nacos
+
+* Update README.md
+
+* Fix the test cases
+
+* Polish apache/incubator-dubbo-spring-boot-project#366
+
+* Polish apache/incubator-dubbo-spring-boot-project#370
+
+* 0.2.1 (#376)
+
+* Fix apache/incubator-dubbo-spring-boot-project#169
+
+* Polish : apache/incubator-dubbo-spring-boot-project#324 & apache/incubator-dubbo-spring-boot-project#325
+
+* Polish : apache/incubator-dubbo-spring-boot-project#315
+
+* Polish : apache/incubator-dubbo-spring-boot-project#321
+
+* Polish : apache/incubator-dubbo-spring-boot-project#321
+
+* Polish : apache/incubator-dubbo-spring-boot-project#321 for test case
+
+* Polish : Update Demos
+
+* Polish : Update version to be 0.2.1
+
+* Polish : apache/incubator-dubbo-spring-boot-project#319
+
+* Polish : apache/incubator-dubbo-spring-boot-project#226
+
+* Polish : apache/incubator-dubbo-spring-boot-project#309
+
+* Fix the test case's bugs
+
+* Fix the test case's bugs
+
+* Fix a JavaDoc issue
+
+* Update SNAPSHOT and add exclude list
+
+* Update SNAPSHOT to be 0.2.1-SNAPSHOT
+
+* Update JDK versions
+
+* Update JDK versions
+
+* Reactor & remove author info
+
+* Refactor : to save a shutdown hook thread
+
+* Remove javax.servlet:javax.servlet-api:3.1.0 that may cause class conflict, and use indirectly dependencies from spring-boot-starter-*
+
+* Polish apache/incubator-dubbo-spring-boot-project#341
+
+* Add the samples
+
+* Add a license
+
+* Add the samples of Zookeeper and Nacos
+
+* Update README.md
+
+* Fix the test cases
+
+* Polish apache/incubator-dubbo-spring-boot-project#366
+
+* Polish apache/incubator-dubbo-spring-boot-project#370
+
+* Polish apache/incubator-dubbo-spring-boot-project#370
+
+* 0.2.1 (#389)
+
+* 0.2.1 (#372)
+
+* Fix apache/incubator-dubbo-spring-boot-project#169
+
+* Polish : apache/incubator-dubbo-spring-boot-project#324 & apache/incubator-dubbo-spring-boot-project#325
+
+* Polish : apache/incubator-dubbo-spring-boot-project#315
+
+* Polish : apache/incubator-dubbo-spring-boot-project#321
+
+* Polish : apache/incubator-dubbo-spring-boot-project#321
+
+* Polish : apache/incubator-dubbo-spring-boot-project#321 for test case
+
+* Polish : Update Demos
+
+* Polish : Update version to be 0.2.1
+
+* Polish : apache/incubator-dubbo-spring-boot-project#319
+
+* Polish : apache/incubator-dubbo-spring-boot-project#226
+
+* Polish : apache/incubator-dubbo-spring-boot-project#309
+
+* Fix the test case's bugs
+
+* Fix the test case's bugs
+
+* Fix a JavaDoc issue
+
+* Update SNAPSHOT and add exclude list
+
+* Update SNAPSHOT to be 0.2.1-SNAPSHOT
+
+* Update JDK versions
+
+* Update JDK versions
+
+* Reactor & remove author info
+
+* Refactor : to save a shutdown hook thread
+
+* Remove javax.servlet:javax.servlet-api:3.1.0 that may cause class conflict, and use indirectly dependencies from spring-boot-starter-*
+
+* Polish apache/incubator-dubbo-spring-boot-project#341
+
+* Add the samples
+
+* Add a license
+
+* Add the samples of Zookeeper and Nacos
+
+* Update README.md
+
+* Fix the test cases
+
+* Polish apache/incubator-dubbo-spring-boot-project#366
+
+* Polish apache/incubator-dubbo-spring-boot-project#370
+
+* 0.2.1 (#376)
+
+* Fix apache/incubator-dubbo-spring-boot-project#169
+
+* Polish : apache/incubator-dubbo-spring-boot-project#324 & apache/incubator-dubbo-spring-boot-project#325
+
+* Polish : apache/incubator-dubbo-spring-boot-project#315
+
+* Polish : apache/incubator-dubbo-spring-boot-project#321
+
+* Polish : apache/incubator-dubbo-spring-boot-project#321
+
+* Polish : apache/incubator-dubbo-spring-boot-project#321 for test case
+
+* Polish : Update Demos
+
+* Polish : Update version to be 0.2.1
+
+* Polish : apache/incubator-dubbo-spring-boot-project#319
+
+* Polish : apache/incubator-dubbo-spring-boot-project#226
+
+* Polish : apache/incubator-dubbo-spring-boot-project#309
+
+* Fix the test case's bugs
+
+* Fix the test case's bugs
+
+* Fix a JavaDoc issue
+
+* Update SNAPSHOT and add exclude list
+
+* Update SNAPSHOT to be 0.2.1-SNAPSHOT
+
+* Update JDK versions
+
+* Update JDK versions
+
+* Reactor & remove author info
+
+* Refactor : to save a shutdown hook thread
+
+* Remove javax.servlet:javax.servlet-api:3.1.0 that may cause class conflict, and use indirectly dependencies from spring-boot-starter-*
+
+* Polish apache/incubator-dubbo-spring-boot-project#341
+
+* Add the samples
+
+* Add a license
+
+* Add the samples of Zookeeper and Nacos
+
+* Update README.md
+
+* Fix the test cases
+
+* Polish apache/incubator-dubbo-spring-boot-project#366
+
+* Polish apache/incubator-dubbo-spring-boot-project#370
+
+* Polish apache/incubator-dubbo-spring-boot-project#370
+
+* 0.2.1 (#386)
+
+* Fix apache/incubator-dubbo-spring-boot-project#169
+
+* Polish : apache/incubator-dubbo-spring-boot-project#324 & apache/incubator-dubbo-spring-boot-project#325
+
+* Polish : apache/incubator-dubbo-spring-boot-project#315
+
+* Polish : apache/incubator-dubbo-spring-boot-project#321
+
+* Polish : apache/incubator-dubbo-spring-boot-project#321
+
+* Polish : apache/incubator-dubbo-spring-boot-project#321 for test case
+
+* Polish : Update Demos
+
+* Polish : Update version to be 0.2.1
+
+* Polish : apache/incubator-dubbo-spring-boot-project#319
+
+* Polish : apache/incubator-dubbo-spring-boot-project#226
+
+* Polish : apache/incubator-dubbo-spring-boot-project#309
+
+* Fix the test case's bugs
+
+* Fix the test case's bugs
+
+* Fix a JavaDoc issue
+
+* Update SNAPSHOT and add e…",65536,1188,No,41
+dc0bed148c401f9350805ac8b6eab2f24408c389,commons-rng,apache,2023-04-03 19:39:18,Correct package-private javadoc,31,89,No,11
+43a17d4267ade1275f3cee74c43c54962e1b8680,time,facebook,2021-08-11 12:51:21,"Merge pull request #61 from pmazzini/ntpdata
+
+[ntpcheck] decouple ntpdata",73,217,Yes,7
+3f10ec92381b1f39b6ceae6220512442ad1b7355,ax,facebook,2021-08-13 15:40:56,"Minor changes to `sweep_for_best` and its Ax usage
+
+Summary: Mostly just me learning this codebase and making small changes that occur to me; the main changes are to come once 1) D30172030 is done and 2) Ax Sobol supports HSS (by end of next week)
+
+Reviewed By: EugenHotaj
+
+Differential Revision: D30170470
+
+fbshipit-source-id: 6f6ebeaf8f6f0af7498c6a64c8ba5c7594702c0c",368,5,No,1
+756d30e59b59f3ef98b7f3e378560bbe88dbc9da,metro,facebook,2021-10-14 16:47:38,"deploy v0.162.0 to xplat
+
+Summary: Changelog: [Internal]
+
+Reviewed By: vrama628
+
+Differential Revision: D31640841
+
+fbshipit-source-id: 783200913d06baca5b1d32d07b8ed5f4ecde7e1e",175,12,No,3
+12e358d5694d85775db091e098d7e88c7892f4be,spectator-js,netflix,2020-06-05 00:45:15,Bump version to 0.2.11,22,4,No,2
+d6e532514c5c7ace6667546016f7c3cb8b818a56,spectator-cpp,netflix,2021-04-14 18:05:16,add usage guidelines to readme,30,17,No,1
+85d881c3777eeb69cda1e304365e9a66a2b1415a,go-expect,netflix,2020-11-25 19:45:54,Add codecov badge to README.,28,1,No,1
+6c85820584a5e8d00c628fdc6e5703e1d5fc6ee7,photon,netflix,2020-09-18 01:31:23,"Merge pull request #281 from AllMethodGrind/master
+
+Enhance Dockerfile",70,20,Yes,1
+fc1b55458655634a7fe98473db060b87adca6ce5,genie,netflix,2023-02-15 19:04:36,Fix flaky integration tests when running with non-h2 databases,62,70,No,1
+a3fd8872840de990b97c4c35a769c8026cc3ee15,kuksa.val,eclipse,2023-03-15 12:54:02,Add authorization to perf*,26,22,No,2
+264ff04c817ecb5fdf642cdb5b8b5f3b8c35e2e5,che-dashboard,eclipse,2021-04-15 10:14:37,Fixed the IDE loading page can't find the target workspace. (#214),66,6,No,2
+adcd41e39e635c11d9a6e43e649e1de4acd56056,thingweb.node-wot,eclipse,2023-04-14 11:09:22,"Merge pull request #952 from danielpeintner/ts-defs-0-8-0-SNAPSHOT-23
+
+update TS definitions",92,178,Yes,20
+77150f49e89aa42d9fb7342cb78ab6a6454fb72b,jkube,eclipse,2023-04-04 23:56:37,"chore(deps): Bump step-security/harden-runner from 2.2.1 to 2.3.0
+
+Bumps [step-security/harden-runner](https://github.com/step-security/harden-runner) from 2.2.1 to 2.3.0.
+- [Release notes](https://github.com/step-security/harden-runner/releases)
+- [Commits](https://github.com/step-security/harden-runner/compare/1f99358870fe1c846a3ccba386cc2b2246836776...03bee3930647ebbf994244c21ddbc0d4933aab4f)
+
+---
+updated-dependencies:
+- dependency-name: step-security/harden-runner
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>",609,4,No,2
+27e7c6953c92633cbe7e8ce746a16ca10d240ea2,che-plugin-broker,eclipse,2021-04-18 15:11:13,"CRW-1654 update all rpms, not just... (#116)
+
+* CRW-1654 update all rpms, not just systemd
+
+Change-Id: I2806fc6f702b28561b328f0ef2b32408d3644b52
+Signed-off-by: nickboldt <nboldt@redhat.com>
+
+* update base images
+
+Change-Id: I1a7fdc7743e3c6ef1cb33f58c2ae0c659a7a10cd
+Signed-off-by: nickboldt <nboldt@redhat.com>",318,12,No,2
+a255bae01b398b25f5b2966eba55d86d67766e27,winery,eclipse,2017-08-03 13:36:45,"fix saving VisualAppearance in RelationshipTypes
+
+Signed-off-by: Lukas Harzenetter <lharzenetter@gmx.de>",104,58,No,6
